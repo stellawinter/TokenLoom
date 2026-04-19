@@ -1,0 +1,30 @@
+{
+    "name": "stellawinter/tokenloom",
+    "description": "TokenLoom - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tokenloom\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tokenloom\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stellawinter"
+        }
+    ]
+}
